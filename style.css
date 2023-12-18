@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background-color: #ffcd9e;
+}
+
+/* content */
+.main-section {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+}
+
+.content {
+  width: 60%;
+}
+
+.content-div {
+  width: 80%;
+  height: auto;
+  margin-top: 7%;
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+  left: 15%;
+}
+
+.content-heading1 {
+  font-size: 33px;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.content-para {
+  color: #484848;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.content-heading2 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.newsletter {
+  display: flex;
+}
+
+.newsletter-input {
+  width: 60%;
+  height: 40px;
+  min-width: 100px;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 10px;
+}
+
+.newsletter-input::placeholder {
+  color: #888888;
+  font-size: 16px;
+  padding-left: 14px;
+  font-weight: 600;
+}
+
+.newsletter-button {
+  background-color: black;
+  width: 27%;
+  min-width: 100px;
+  height: 50px;
+  font-weight: 600;
+  margin-left: 8px;
+  font-size: 16px;
+  border-radius: 10px;
+  padding: 4px;
+  margin-top: 10px;
+  color: white;
+}
+
+.content-spam {
+  margin: 5%;
+  color: white;
+}
+
+.content-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-1 {
+  width: 90%;
+}
+
+/* footer */
+.footer {
+  background-color: #282828;
+  color: white;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-section1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-section2 {
+  display: flex;
+  flex-direction: column;
+}
+
+section > span {
+  padding-top: 10px;
+  letter-spacing: 1px;
+}
+
+.footer-log-div {
+  display: flex;
+}
+
+.footer-logo {
+  width: 30px;
+  margin: 10px 0 25px 0;
+}
+
+/* mobile section */
+@media screen and (max-width: 750px) {
+  .main-section {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}
