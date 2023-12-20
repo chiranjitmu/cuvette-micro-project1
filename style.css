@@ -141,6 +141,14 @@ section > span {
     width: 100%;
   }
 
+  .newsletter-input::placeholder {
+    font-size: 12px;
+  }
+
+  .newsletter-button{
+    font-size: 12px;
+  }
+
   .footer {
     flex-direction: column;
     align-items: start;
