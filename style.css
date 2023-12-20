@@ -98,12 +98,9 @@ body {
 /* footer */
 .footer {
   background-color: #282828;
+  box-sizing: border-box;
   color: white;
   width: 100%;
-  /* box-sizing: border-box; */
-}
-
-.footer-main {
   height: 50vh;
   display: flex;
   flex-direction: row;
@@ -149,14 +146,14 @@ section > span {
     font-size: 12px;
   }
 
-  .newsletter-button {
+  .newsletter-button{
     font-size: 12px;
   }
 
-  .footer-main {
+  .footer {
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
-    padding: 20px;
+    padding-left: 20px;
   }
 }
