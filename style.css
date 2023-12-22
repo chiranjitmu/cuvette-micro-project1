@@ -57,6 +57,8 @@ body {
   border-radius: 10px;
   padding: 4px;
   margin-top: 10px;
+  font-size: 20px;
+  padding: 1%;
 }
 
 .newsletter-input::placeholder {
