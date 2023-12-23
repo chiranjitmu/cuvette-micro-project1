@@ -9,7 +9,7 @@ This repository contains the code for Cuvette Micro Project One, a static web pa
 Getting Started
 
 Clone the repository to your local machine:
-git clone https://github.com/your-username/cuvette-micro-project-one.git
+git clone https://github.com/chiranjitmu/cuvette-micro-project1.git
 
 Open the index.html file in your web browser to view the static web page.
 
