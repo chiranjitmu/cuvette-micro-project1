@@ -103,7 +103,7 @@ body {
   box-sizing: border-box;
   color: white;
   width: 100%;
-  height: 50vh;
+  height: 55vh;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -150,7 +150,7 @@ section > span {
     font-size: 12px;
   }
 
-  .newsletter-button{
+  .newsletter-button {
     font-size: 12px;
   }
 
@@ -159,5 +159,6 @@ section > span {
     align-items: start;
     justify-content: space-around;
     padding-left: 20px;
+    gap: 1rem;
   }
 }
